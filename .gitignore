@@ -1,0 +1,19 @@
+# Arquivos Python compilados
+*.pyc
+__pycache__/
+
+# Banco de dados SQLite
+db.sqlite3
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de log
+*.log
+
+# Diretório do ambiente virtual
+venv/
+
+# Arquivos de migração
+*/migrations/*
+!*/migrations/__init__.py

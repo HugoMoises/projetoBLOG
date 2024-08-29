@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<h1>Interesses</h1>
+<ul>
+    {% for interesse in interesses %}
+    <li>{{ interesse.nome }} - {{ interesse.descricao }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

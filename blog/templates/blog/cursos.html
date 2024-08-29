@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<h1>Cursos Realizados</h1>
+<ul>
+    {% for curso in cursos %}
+    <li>{{ curso.nome }} - {{ curso.descricao }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
